@@ -1,1 +1,6 @@
-
+# 1. addi sp,sp-16
+Immediate (-128): 111111110000
+rs1 (sp = x2): 00010
+funct3: 000
+rd (sp = x2): 00010
+Opcode: 0010011
