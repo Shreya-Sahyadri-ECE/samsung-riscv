@@ -1,1 +1,1 @@
-# samsung-riscv
+# SAMSUNG RISC-V program
