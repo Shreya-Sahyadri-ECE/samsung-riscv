@@ -1,6 +1,6 @@
-The Smart Distance Alert System works by using an HC-SR04 ultrasonic sensor to measure the distance of nearby objects. The VSDSquadron Mini processes this data and determines whether the object is too close based on a predefined threshold.
+ The Smart Distance Alert System works by using an HC-SR04 ultrasonic sensor to measure the distance of nearby objects. The VSDSquadron Mini processes this data and determines whether the object is too close based on a predefined threshold.
 
-# Working Steps:
+ Working Steps:
 
  Distance Measurement:
  The HC-SR04 sensor sends an ultrasonic pulse via the Trig pin.
