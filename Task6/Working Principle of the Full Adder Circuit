@@ -1,0 +1,27 @@
+Working Principle:
+
+This circuit implements a Full Adder using the VSDSquadron Mini microcontroller. A Full Adder is a combinational logic circuit that performs the addition of three binary inputs:
+A (Input 1)
+B (Input 2)
+Cin (Carry Input)
+
+Working Steps:
+
+Inputs Processing:
+The three switches/buttons on the breadboard represent the binary inputs (A, B, Cin).
+When pressed, they provide a HIGH (1), and when released, they provide a LOW (0).
+
+Logic Operations (Full Adder Equation)
+The circuit follows the Full Adder Boolean equations:
+Sum (S) = A ⊕ B ⊕ Cin (XOR operation)
+Carry (Cout) = (A ⋅ B) + (Cin ⋅ (A ⊕ B))
+
+LED Output Indication:
+A red LED represents the Sum output (S).
+A green LED represents the Carry output (Cout).
+Depending on the input combinations, the LEDs light up accordingly.
+
+Microcontroller Processing:
+The VSDSquadron Mini processes the logic and controls the LED outputs.
+
+This Full Adder circuit is fundamental in digital electronics and is used in ALUs, processors, and arithmetic circuits.
